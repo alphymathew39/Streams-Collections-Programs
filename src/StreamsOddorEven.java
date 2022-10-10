@@ -3,7 +3,6 @@ import java.util.stream.IntStream;
 
 public class StreamsOddorEven {
     public static void main(String[] args) {
-        Scanner s = new Scanner(System.in);
         oddNumberWithinRange(10, 25);
         evenNumberWithinRange(10, 25);
     }
