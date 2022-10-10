@@ -2,7 +2,7 @@ import java.util.Arrays;
 import java.util.List;
 import java.util.OptionalDouble;
 
-public class AverageAndSum{
+public class StreamsAverageAndSum{
     public static void main(String[] args) {
         List<Integer> values = Arrays.asList(1,2,3);
 

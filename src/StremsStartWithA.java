@@ -1,10 +1,10 @@
 import java.util.Arrays;
 import java.util.List;
 
-public class StringLengthMoreThan3 {
+public class StremsStartWithA {
     public static void main(String[] args) {
         List<String> StringList = Arrays.asList("aaaa", "kk", "jjjj");
-        Long counts = StringList.stream().filter(i -> i.length()>3).count();
-        System.out.println(counts);
+        Long count = StringList.stream().filter(x -> x.startsWith("a")).count();
+        System.out.println(count);
     }
 }
